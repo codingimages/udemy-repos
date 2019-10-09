@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo&display=swap");
+
+:root{
+    /* Colors */
+
+    --colorFontLight: #f4ecfa;
+    --colorFontDark: #2a0157;
+    --colorMainDark: #663399;
+    --colorMainLight: #d8c3ee;
+    --colorWhite: #ffffff;
+    --backgroundLight: #f7f7f7;
+
+
+    /* Spacing */
+
+    --margin-xs: .3rem;
+    --margin-s: .5rem;
+    --marign-m: .8rem;
+    --margin-l: 1.3rem;
+    --margin-xl: 1.8rem;
+
+    --padding-xs: .3rem;
+    --padding-s: .5rem;
+    --padding-m: .8rem;
+    --padding-l: 1.3rem;
+    --padding-xl: 1.8rem;
+
+
+    /* Font Sizes */
+
+    --paragraphLargeScreen: 1.3rem;
+    --paragraphSmallScreen: 1rem;
+    --paragraphMobileScreen: 0.9rem;
+
+
+    /* Border */
+    --border-radius: .3rem;
+    --border-line: 1px solid var(--colorMainLight);
+    --box-shadow: 0px 5px 19px 0px var(--colorMainLight);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}

@@ -1,20 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import HeaderImg from "../components/HeaderImg"
+import Banner from "../components/Banner"
+import { FaFacebookF, FaYoutube, FaTwitter } from "react-icons/fa"
+
+import headerBannerStyle from "../components/css/headerBanner.module.css";
+
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <HeaderImg>
+      <Banner title="Welcome to Coding Images" description="Web and mobile / development and design">
+        <FaFacebookF className={headerBannerStyle.bannerIcons} />
+        <FaYoutube className={headerBannerStyle.bannerIcons} />
+        <FaTwitter className={headerBannerStyle.bannerIcons} />
+      </Banner>
+    </HeaderImg>
   </Layout>
 )
 

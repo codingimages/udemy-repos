@@ -1,0 +1,41 @@
+@import "./global.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarFull{
+    padding: var(--padding-s);
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--colorMainLight)
+}
+
+.navbarAlign{
+    display: flex;
+    align-items: center;
+}
+
+.navbarContainer{
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbarLinks{
+    display: flex; 
+    align-items: center;
+    margin-left: auto;
+}
+
+.links{
+    text-decoration: none;
+    margin-left: var(--margin-s);
+    color: var(--colorFontDark);
+    font-size: var(--paragraphSmallScreen);
+}
